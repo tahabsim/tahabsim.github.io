@@ -1,0 +1,69 @@
+::selection {
+	background-color: #D94344;
+	color: #FFF;
+}
+
+body {
+	font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	font-weight: 400;
+	padding: 0;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+a {
+	color: #D94344;
+}
+
+
+.top {
+	margin-top: 20px;
+
+}
+
+.top-picture {
+	width: 150px;
+	height: 150px;
+	border-radius: 4px;
+	box-shadow: 0 1.5px 3px #000;
+}
+
+.top-name {
+	font-family: 'Fugaz One', cursive;
+}
+
+.middle {
+	padding: 15px;
+	color: #FFF;
+	border-radius: 4px;
+	background-color: #D94344;
+	box-shadow: 0 1.5px 3px #000;
+}
+
+.middle a {
+	color: #FFF;
+}
+
+
+.middle ul {
+	text-align: left;
+}
+
+footer .copy {
+	padding: 50px;
+	font-size: .85em;
+	color: #c3d2d9;
+	font-weight: 400;
+}
+
+@media (max-width: 600px) {
+
+	.middle {
+		border-radius: 0;
+		box-shadow: 0 0 0;
+	}
+}
