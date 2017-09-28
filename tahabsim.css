@@ -1,7 +1,4 @@
-::selection {
-	background-color: #D94344;
-	color: #FFF;
-}
+
 
 body {
 	font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -27,9 +24,7 @@ a {
 
 .top-picture {
 	width: 150px;
-	height: 150px;
-	border-radius: 4px;
-	box-shadow: 0 1.5px 3px #000;
+	height: auto;
 }
 
 .top-name {
@@ -37,10 +32,13 @@ a {
 }
 
 .middle {
-	padding: 15px;
+	margin: auto;
+	text-justify: auto;
+	text-align: left;
+	padding: 15px 15px 15px 45px;
 	color: #FFF;
 	border-radius: 4px;
-	background-color: #D94344;
+	background-color: #2462B1;
 	box-shadow: 0 1.5px 3px #000;
 }
 
