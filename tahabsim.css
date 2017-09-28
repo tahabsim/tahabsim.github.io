@@ -12,11 +12,6 @@ body {
 	font-size: 18px;
 }
 
-a {
-	color: #D94344;
-}
-
-
 .top {
 	margin-top: 20px;
 
@@ -29,6 +24,7 @@ a {
 
 .top-name {
 	font-family: 'Fugaz One', cursive;
+	color: #87ACE3;
 }
 
 .middle {
@@ -38,7 +34,7 @@ a {
 	padding: 15px 35px 15px 35px;
 	color: #FFF;
 	border-radius: 4px;
-	background-color: #2462B1;
+	background-color: #87ACE3;
 	box-shadow: 0 1.5px 3px #000;
 }
 
