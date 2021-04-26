@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width">
 	<!-- CURSIVE TITLE FONT -->
 	<link rel="stylesheet" type="text/css" href="fugaz-one.css">
+	<link rel="shortcut icon" href="img/favicon.png">
 	<style type="text/css">
 		
 		body {
@@ -25,12 +26,8 @@
 		}
 
 		/* PICTURE AND NAME */
-		.top {
-			margin-top: 20px;
-
-		}
-
 		.top-picture {
+			padding-top: 25px;
 			width: 150px;
 			height: auto;
 		}
@@ -39,6 +36,37 @@
 			font-family: 'Fugaz One', cursive;
 			color: #4C80C5;
 		}
+
+		/* NAV */
+		/** NAV COMING SOON
+		.nav a {
+			text-decoration: none;
+		}
+
+		.nav ul {
+			list-style: none;
+		}
+
+		.nav ul li {
+			display: inline;
+			border-bottom: .25rem solid #3871BB;
+			margin: 0px 25px 0px 25px;
+		}
+
+		.nav ul li .current {
+			color: #3871BB;
+		}
+
+		.nav ul li .closed  {
+			color: #c3d2d9;
+			border-bottom: .25rem solid #c3d2d9;
+		}
+
+		.nav ul li .closed:hover {
+			color: #3871BB;
+			border-bottom: .25rem solid #3871BB;
+		}
+		**/
 
 		/* MAIN BODY */
 		.middle {
@@ -59,6 +87,12 @@
 
 		.middle ul {
 			text-align: left;
+		}
+
+		.location {
+			text-align: center;
+			font-size: .85em;
+			font-weight: 400;
 		}
 
 
@@ -83,39 +117,42 @@
 </head>
 <body>
 	<div class="top">
+		<p class="location">&#128205 Delray Beach, Florida</p>
 		<!-- MAIN PICTURE -->
-		<img class="top-picture" src="tahabsim.jpg">
+		<img class="top-picture" src="img/FL@2x.png">
 		<!-- MY NAME -->
 		<h1 class="top-name">Jordan Tahabsim</h1>
 	</div>
+	<!-- NAV COMING SOOn
+	<div class="nav">
+		<ul>
+			<li>
+			<a href="#" class="current">Home</a>
+			</li>
+			<li>
+			<a href="#" class="closed">Portfolio (Coming Soon)</a> 
+			</li>
+		</ul>
+	</div>
+	-->
 	<!-- BEGIN BODY -->
 	<div class="middle">
+		
 		<!-- BLURB -->
-		<p>Hi, I'm Jordan. I'm currently a student at Fullerton College and enjoy making interesting things for the Internet.</p>
+		<p>Hi, I'm Jordan. I'm a <a href="https://clubmembermagazine.com">Graphic Designer</a> and <a href="https://endpointsystems.com">Front-End Web Developer</a>.</p>
 		<!-- LINKS -->
-		<p>Some of my stuff you may be interested in:
-			<ul>
-				<li><a href="http://tahabs.im">Jordan's Log</a></li>
-				<li><a href="https://twitter.com/tahabsim">Twitter</a></li>
-				<li><a href="https://github.com/tahabsim">Github</a></li>
-			</ul>
+		<p>
+			Originally from Anaheim, California, I now live in Florida, designing print advertising for major companies across the country, while also building user interfaces and web experiences.
+		</p>
+		<p>
+			You may find me occasionally posting on <a href="https://tahabs.im">my life's changelog</a> and making contributions to projects on <a href="https://github.com/tahabsim">GitHub</a>.
+		</p>
 		<!-- EMAIL -->
-		<p>If you'd like, you can also send me <a href="mailto:hello@tahabs.im">an email</a>.</p>
+		<p>You can get in contact with me <a href="mailto:hello@tahabs.im">via email</a> if you have any project ideas &mdash; or even just want to talk.</p>
 	</div>
 	<!-- END BODY -->
 	<footer>
-		<div class="copy">© 2014-2019 Jordan Tahabsim</div>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134278484-1"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-134278484-1');
-		</script>
-
+		<div class="copy">© 2014-2021 Jordan Tahabsim</div>
 	</footer>
 </body>
 </html>
