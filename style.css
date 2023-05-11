@@ -54,7 +54,7 @@ body {
   }
 
 
-    .top-name a.active {
+    .top-name a:active {
       text-decoration: none;
 
       color: #4C80C5;}
