@@ -23,6 +23,36 @@ body {
       color: #4C80C5;
     }
 
+    .top-name a {
+      text-decoration: none;
+
+      color: #4C80C5;
+/*
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #4C80C5 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+    }*/
+  }
+
     .aboutme {
         color: #4C80C5;
         padding-bottom: 1.5em;
