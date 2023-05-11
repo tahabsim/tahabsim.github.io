@@ -53,6 +53,12 @@ body {
     }*/
   }
 
+
+    .top-name a.active {
+      text-decoration: none;
+
+      color: #4C80C5;}
+
     .aboutme {
         color: #4C80C5;
         padding-bottom: 1.5em;
